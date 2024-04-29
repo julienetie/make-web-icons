@@ -5,11 +5,13 @@
   "type": "module",
   "main": "make-web-icons.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm i && chmod +x make-web-icons.sh && . make-web-icons.sh"
   },
   "author": "Julien Etienne",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^5.3.0",
     "sharp": "^0.33.3"
   }
 }
